@@ -38,7 +38,7 @@ class DisplayBooksList extends React.Component{
                 <div className="gx-5 gy-5 row flex-row">
                     {this.props.books.map((book, i) => {
                         return(
-                        <DisplayBook key={i} index={i} book={book}/> //removebook={this.removebook.bind(this)}/>
+                        <DisplayBook key={i} index={i} book={book} fnBundle={this.props.fnBundle}/> //removebook={this.removebook.bind(this)}/>
                         )
                     })}
                 </div>

@@ -8,9 +8,10 @@
 }
 
 .cardBody {
-    height: 40rem;
+    position: relative;
+    height: 30rem;
     padding: 1rem 0.2rem;
-    background-color:beige;
+    /* background-color:beige; */
     /* width: 20%; */
     box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.25);
     -webkit-box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.25);
@@ -18,21 +19,24 @@
 }
 
 .cardBody img{
-    height: 25em;
+    height: 20rem;
     width: 100%;
 }
 
 .more_button{
+    position: absolute;
+    bottom: -35px;
+    right: -40px;
     -webkit-border-radius: 50;
     -moz-border-radius: 50;
-    border-radius: 50px;
+    border-radius: 50%;
     font-family: Arial;
     color: #ffffff;
     font-size: 35px;
     background: green;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px ;
     text-decoration: none;
-    right:0;
+    /* right:0; */
 }
       
 .more_button:hover {
